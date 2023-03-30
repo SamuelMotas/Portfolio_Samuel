@@ -13,7 +13,7 @@ const Footer = () => {
                     <div className="location">
                         <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
                         <div>
-                            <p>4280 rue Belanger.</p>
+                            <p>4280 rue Belanger</p>
                             <p>Montréal</p>
                         </div>
                     </div>
@@ -28,8 +28,8 @@ const Footer = () => {
                 </div>
 
                 <div className="right">
-                    <h4>About me</h4>
-                    <p> (ecrire plus tard) </p>
+                    <h4>Samuel Motas</h4>
+                    <p> Développeur Front-End </p>
                     <div className="social">
                     <FaLinkedin size={20} style={{ color: "#fff", marginRight: "2rem" }} />
                     <FaGithub size={20} style={{ color: "#fff", marginRight: "2rem" }} />
