@@ -8,7 +8,7 @@ import AboutContent from '../components/AboutContent'
 const About = () => {
   return <div>
     <Navbar />
-    <HeroImg2 heading="DÉVELOPPEUR FRONT-END" text="Mes compétences:"/>
+    <HeroImg2 heading="DEVELOPPEUR FRONT-END" text="Mes compétences:"/>
     <AboutContent />
     <Footer />
   </div>
