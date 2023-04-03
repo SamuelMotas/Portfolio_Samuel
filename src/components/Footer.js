@@ -2,6 +2,7 @@ import "./FooterStyles.css"
 
 import React from 'react'
 
+import { Link } from "react-router-dom"
 import { FaHome, FaPhone, FaMailBulk, FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa"
 
 const Footer = () => {
@@ -31,9 +32,11 @@ const Footer = () => {
                     <h4>Samuel Motas</h4>
                     <p> Développeur Front-End </p>
                     <div className="social">
-                    <FaLinkedin size={20} style={{ color: "#fff", marginRight: "2rem" }} />
-                    <FaGithub size={20} style={{ color: "#fff", marginRight: "2rem" }} />
-                    <FaFacebook size={20} style={{ color: "#fff", marginRight: "2rem" }} />
+                        <FaLinkedin size={20} style={{ color: "#fff", marginRight: "2rem" }} />
+                        <Link to="https://github.com/SamuelMotas">
+                            <FaGithub size={20} style={{ color: "#fff", marginRight: "2rem" }} />
+                        </Link>
+                        <FaFacebook size={20} style={{ color: "#fff", marginRight: "2rem" }} />
                     </div>
                 </div>
             </div>
