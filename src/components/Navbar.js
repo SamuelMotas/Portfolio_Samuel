@@ -3,7 +3,7 @@ import "./NavbarStyles.css"
 import React, { useState } from "react"
 import { Link } from "react-router-dom"
 
-import { FaBars, FaTimes } from "react-icons/fa"
+import { FaBars, FaHome, FaTimes, } from "react-icons/fa"
 
 
 const Navbar = () => {
@@ -26,17 +26,17 @@ const Navbar = () => {
   return (
     <div className={color ? "header header-bg" : "header"}>
       <Link to="/">
-        <h1>Portfolio.</h1>
+        <FaHome size={40} style={{ color: "#fff" }}/>
       </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
-          <Link to="/">Accueil</Link>
+          <Link to="/">Profil</Link>
         </li>
         <li>
-          <Link to="/project">Projets</Link>
+          <Link to="/projects">Projets</Link>
         </li>
         <li>
-          <Link to="/about">À Propos</Link>
+          <Link to="/skills">Compétences</Link>
         </li>
         <li>
           <Link to="/contact">Contact</Link>

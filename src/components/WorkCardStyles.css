@@ -15,11 +15,13 @@
 .project-card {
     background: #1a1919;
     padding: 1.2rem 1rem;
+    border-radius: 20px;
 }
 
 .project-card img {
     width: 100%;
     height: 50%;
+    border-radius: 15px;
 }
 
 .pro-details p {
@@ -31,8 +33,8 @@
 .pro-btns {
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem 0;
-    gap: 6rem;
+    padding: 0.2rem 0;
+    gap: 4rem;
 }
 
 .pro-btns .btn {

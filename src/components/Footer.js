@@ -3,7 +3,7 @@ import "./FooterStyles.css"
 import React from 'react'
 
 import { NavLink } from "react-router-dom"
-import { FaHome, FaPhone, FaMailBulk, FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa"
+import { FaHome, FaPhone, FaMailBulk, FaGithub, FaLinkedin } from "react-icons/fa"
 
 const Footer = () => {
     return (
