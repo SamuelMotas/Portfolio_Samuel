@@ -3,7 +3,7 @@ import "./NavbarStyles.css"
 import React, { useState } from "react"
 import { Link } from "react-router-dom"
 
-import { FaBars, FaHome, FaTimes, } from "react-icons/fa"
+import { FaAtom, FaBars, FaTimes, } from "react-icons/fa"
 
 
 const Navbar = () => {
@@ -26,7 +26,7 @@ const Navbar = () => {
   return (
     <div className={color ? "header header-bg" : "header"}>
       <Link to="/">
-        <FaHome size={40} style={{ color: "#fff" }}/>
+        <FaAtom size={50} style={{ color:"rgb(102, 90, 205)" }}/>
       </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
