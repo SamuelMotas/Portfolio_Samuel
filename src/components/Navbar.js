@@ -25,12 +25,12 @@ const Navbar = () => {
 
   return (
     <div className={color ? "header header-bg" : "header"}>
-      <Link to="/">
-        <FaAtom size={50} style={{ color:"rgb(102, 90, 205)" }}/>
+      <Link to="/profile">
+        <FaAtom size={50} style={{ color:"#fff" }}/>
       </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
-          <Link to="/">Profil</Link>
+          <Link to="/profile">Profil</Link>
         </li>
         <li>
           <Link to="/projects">Projets</Link>

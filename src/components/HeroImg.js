@@ -24,7 +24,7 @@ const HeroImg = () => {
                 <Link to="/projects" className="btn">
                     Projets
                 </Link>
-                <a className="btn"><span>Télécharger mon CV     <FaDownload size={17} style={{ color: "#fff" }} /></span></a>
+                <Link className="btn"><span>Télécharger mon CV     <FaDownload size={17} style={{ color: "#fff" }} /></span></Link>
             </div>
         </div>
     </div>
