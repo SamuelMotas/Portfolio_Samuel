@@ -6,7 +6,7 @@ import React from 'react'
 
 const Work = () => {
     return <div className="work-container">
-        <h1 className="project-heading">Projets</h1>
+        <h1 className="project-heading">Mes différents projets:</h1>
         <div className="project-container">
             {WorkCardData.map((val, ind) => {
                 return (

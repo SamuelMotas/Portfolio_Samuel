@@ -3,6 +3,7 @@
     padding: 4rem 0 2rem 0;
 }
 
+
 .project-container {
     max-width: 1140px;
     margin: auto;
@@ -16,6 +17,26 @@
     background: #1a1919;
     padding: 1.2rem 1rem;
     border-radius: 20px;
+    opacity: 1;
+    animation: fadeIn 1s ease-out;
+    overflow: hidden;
+}
+
+.project-card:hover {
+    animation: fadeIn 1s ease-in;
+    animation-fill-mode: both;
+}
+
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: -3;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .project-card img {
