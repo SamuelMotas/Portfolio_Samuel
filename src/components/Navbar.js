@@ -18,6 +18,7 @@ const Navbar = () => {
     }
     else {
       setColor(false)
+
     }
   }
 
@@ -25,12 +26,12 @@ const Navbar = () => {
 
   return (
     <div className={color ? "header header-bg" : "header"}>
-      <Link to="/profile">
+      <Link to="/">
         <FaAtom size={50} style={{ color:"#fff" }}/>
       </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
-          <Link to="/profile">Profil</Link>
+          <Link to="/">Profil</Link>
         </li>
         <li>
           <Link to="/projects">Projets</Link>

@@ -8,7 +8,7 @@ import Work from '../components/Work'
 const Project = () => {
   return <div>
     <Navbar />
-    <HeroImg2 heading="MES PROJETS" text="Mes projets les plus récents:" />
+    <HeroImg2 heading="Projets réalisés:" />
     <Work />
     <Footer />
   </div>
