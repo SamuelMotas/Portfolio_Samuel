@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cb75468c.css",
+    "main.js": "/static/js/main.1182b2e5.js",
+    "static/media/la_panthere_projet.png": "/static/media/la_panthere_projet.81d701f8cc63311bb9e7.png",
+    "static/media/project1.png": "/static/media/project1.dce1c105ebc1e51b1aca.png",
+    "static/media/galaxie.jpg": "/static/media/galaxie.7168f4c247a8a45cdff3.jpg",
+    "static/media/Web developer -  Samuel Motas - FR.pdf": "/static/media/Web developer -  Samuel Motas - FR.70c055ef300086a7ecdb.pdf",
+    "index.html": "/index.html",
+    "main.cb75468c.css.map": "/static/css/main.cb75468c.css.map",
+    "main.1182b2e5.js.map": "/static/js/main.1182b2e5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb75468c.css",
+    "static/js/main.1182b2e5.js"
+  ]
+}
