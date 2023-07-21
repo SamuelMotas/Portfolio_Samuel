@@ -11,10 +11,10 @@ const WorkCard = (props) => {
         <div className="pro-details">
             <p>{props.text}</p>
             <div className="pro-btns">
-                <NavLink to={props.view} className="btn">
+                <NavLink to={props.view} target="_blank" className="btn">
                     <FaGlobe size={30} style={{ color: "#fff" }} />
                 </NavLink>
-                <NavLink to={props.source} className="btn">
+                <NavLink to={props.source} target="_blank" className="btn">
                     <FaGithub size={30} style={{ color: "#fff" }} />
                 </NavLink>
             </div>

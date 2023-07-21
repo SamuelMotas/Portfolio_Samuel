@@ -14,7 +14,7 @@ const Footer = () => {
                     <div className="location">
                         <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
                         <div>
-                            <p>4280 rue Belanger</p>
+                            <p>H1T 1A5</p>
                             <p>Montréal</p>
                         </div>
                     </div>
@@ -24,18 +24,18 @@ const Footer = () => {
                     </div>
                     <div className="email">
                         <h4><FaMailBulk size={20} style={{ color: "#fff", marginRight: "2rem" }} />
-                            samuel.mts@outlook.fr</h4>
+                            smlmotas@gmail.com</h4>
                     </div>
                 </div>
 
                 <div className="right">
                     <h4>Samuel Motas</h4>
-                    <p> Développeur Front-End </p>
+                    <p> Développeur Web </p>
                     <div className="social">
-                        <NavLink to="https://www.linkedin.com/in/samuel-motas-72229a168/">
+                        <NavLink target="_blank" to="https://www.linkedin.com/in/samuel-motas-72229a168/">
                             <FaLinkedin size={20} style={{ color: "#fff", marginRight: "2rem" }} />
                         </NavLink>
-                        <NavLink to="https://github.com/SamuelMotas">
+                        <NavLink target="_blank" to="https://github.com/SamuelMotas">
                             <FaGithub size={20} style={{ color: "#fff", marginRight: "2rem" }} />
                         </NavLink>
                     </div>

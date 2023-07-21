@@ -3,9 +3,11 @@ import "./HeroImgStyles.css"
 import React from 'react'
 
 import IntoImg from "../assets/galaxie.jpg"
+import downloadLink from "../assets/Web developer -  Samuel Motas - FR.pdf"
 
-import { Link } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 import { FaDownload } from "react-icons/fa"
+
 
 const HeroImg = () => {
     return <div className="hero">
@@ -24,7 +26,11 @@ const HeroImg = () => {
                 <Link to="/projects" className="btn">
                     Projets
                 </Link>
-                <Link className="btn"><span>Télécharger mon CV     <FaDownload size={17} style={{ color: "#fff" }} /></span></Link>
+                <NavLink href="http://localhost:3000/static/media/Web%20developer%20-%20%20Samuel%20Motas%20-%20FR.70c055ef300086a7ecdb.pdf" target="_blank" download="Web developer -  Samuel Motas - FR.pdf"className="btn" >
+                    <a href="http://localhost:3000/static/media/Web%20developer%20-%20%20Samuel%20Motas%20-%20FR.70c055ef300086a7ecdb.pdf" target="_blank" download="Web developer -  Samuel Motas - FR.pdf" >
+                        Télécharger mon CV  <FaDownload size={17} style={{ color: "#fff" }} />
+                    </a>
+                </NavLink>
             </div>
         </div>
     </div>
